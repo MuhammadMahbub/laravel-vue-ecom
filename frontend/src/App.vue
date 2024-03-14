@@ -28,10 +28,10 @@
       <div class="header-content">
         <div class="header-media-group">
           <button class="header-user">
-            <img src="./assets/./assets/images/menu.png" alt="user" /></button><a href="index.html"><img src="./assets/images/logo.png"
+            <img src="./assets/@/assets/images/menu.png" alt="user" /></button><a href="index.html"><img src="@/assets/images/logo.png"
               alt="logo" /></a><button class="header-src"><i class="fas fa-search"></i></button>
         </div>
-        <a href="index.html" class="header-logo"><img src="./assets/images/logo.png" alt="logo" /></a>
+        <a href="index.html" class="header-logo"><img src="@/assets/images/logo.png" alt="logo" /></a>
 
         <form class="header-form">
           <input type="text" placeholder="Search anything..." /><button>
@@ -331,7 +331,7 @@
     <ul class="cart-list">
       <li class="cart-item">
         <div class="cart-media">
-          <a href="#"><img src="./assets/images/product/01.jpg" alt="product" /></a><button class="cart-delete">
+          <a href="#"><img src="@/assets/images/product/01.jpg" alt="product" /></a><button class="cart-delete">
             <i class="far fa-trash-alt"></i>
           </button>
         </div>
@@ -354,7 +354,7 @@
       </li>
       <li class="cart-item">
         <div class="cart-media">
-          <a href="#"><img src="./assets/images/product/02.jpg" alt="product" /></a><button class="cart-delete">
+          <a href="#"><img src="@/assets/images/product/02.jpg" alt="product" /></a><button class="cart-delete">
             <i class="far fa-trash-alt"></i>
           </button>
         </div>
@@ -377,7 +377,7 @@
       </li>
       <li class="cart-item">
         <div class="cart-media">
-          <a href="#"><img src="./assets/images/product/03.jpg" alt="product" /></a><button class="cart-delete">
+          <a href="#"><img src="@/assets/images/product/03.jpg" alt="product" /></a><button class="cart-delete">
             <i class="far fa-trash-alt"></i>
           </button>
         </div>
@@ -400,7 +400,7 @@
       </li>
       <li class="cart-item">
         <div class="cart-media">
-          <a href="#"><img src="./assets/images/product/04.jpg" alt="product" /></a><button class="cart-delete">
+          <a href="#"><img src="@/assets/images/product/04.jpg" alt="product" /></a><button class="cart-delete">
             <i class="far fa-trash-alt"></i>
           </button>
         </div>
@@ -423,7 +423,7 @@
       </li>
       <li class="cart-item">
         <div class="cart-media">
-          <a href="#"><img src="./assets/images/product/05.jpg" alt="product" /></a><button class="cart-delete">
+          <a href="#"><img src="@/assets/images/product/05.jpg" alt="product" /></a><button class="cart-delete">
             <i class="far fa-trash-alt"></i>
           </button>
         </div>
@@ -458,7 +458,7 @@
   </aside>
   <aside class="nav-sidebar">
     <div class="nav-header">
-      <a href="#"><img src="./assets/images/logo.png" alt="logo" /></a><button class="nav-close"><i
+      <a href="#"><img src="@/assets/images/logo.png" alt="logo" /></a><button class="nav-close"><i
           class="icofont-close"></i></button>
     </div>
     <div class="nav-content">
@@ -514,22 +514,22 @@
                   <label class="view-label new">new</label><label class="view-label off">-10%</label>
                 </div>
                 <ul class="preview-slider slider-arrow">
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
                 </ul>
                 <ul class="thumb-slider">
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
-                  <li><img src="./assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
+                  <li><img src="@/assets/images/product/01.jpg" alt="product" /></li>
                 </ul>
               </div>
             </div>
@@ -607,6 +607,73 @@
 
 
 
+
+  <router-view></router-view>
+
+
+  <section class="news-part" style="background: url(images/newsletter.jpg) no-repeat center">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-md-5 col-lg-6 col-xl-7">
+          <div class="news-text">
+            <h2>Get 20% Discount for Subscriber</h2>
+            <p>Lorem ipsum dolor consectetur adipisicing accusantium</p>
+          </div>
+        </div>
+        <div class="col-md-7 col-lg-6 col-xl-5">
+          <form class="news-form">
+            <input type="text" placeholder="Enter Your Email Address" /><button>
+              <span><i class="icofont-ui-email"></i>Subscribe</span>
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="intro-part">
+    <div class="container">
+      <div class="row intro-content">
+        <div class="col-sm-6 col-lg-3">
+          <div class="intro-wrap">
+            <div class="intro-icon"><i class="fas fa-truck"></i></div>
+            <div class="intro-content">
+              <h5>free home delivery</h5>
+              <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="intro-wrap">
+            <div class="intro-icon"><i class="fas fa-sync-alt"></i></div>
+            <div class="intro-content">
+              <h5>instant return policy</h5>
+              <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="intro-wrap">
+            <div class="intro-icon"><i class="fas fa-headset"></i></div>
+            <div class="intro-content">
+              <h5>quick support system</h5>
+              <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-6 col-lg-3">
+          <div class="intro-wrap">
+            <div class="intro-icon"><i class="fas fa-lock"></i></div>
+            <div class="intro-content">
+              <h5>secure payment way</h5>
+              <p>Lorem ipsum dolor sit amet adipisicing elit nobis.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
   
 
 
@@ -615,7 +682,7 @@
       <div class="row">
         <div class="col-sm-6 col-xl-3">
           <div class="footer-widget">
-            <a class="footer-logo" href="#"><img src="./assets/images/logo.png" alt="logo" /></a>
+            <a class="footer-logo" href="#"><img src="@/assets/images/logo.png" alt="logo" /></a>
             <p class="footer-desc">
               Adipisci asperiores ipsum ipsa repellat consequatur repudiandae
               quisquam assumenda dolor perspiciatis sit ipsum dolor amet.
@@ -680,8 +747,8 @@
               exercitationem!
             </p>
             <div class="footer-app">
-              <a href="#"><img src="./assets/images/google-store.png" alt="google" /></a><a href="#"><img
-                  src="./assets/images/app-store.png" alt="app" /></a>
+              <a href="#"><img src="@/assets/images/google-store.png" alt="google" /></a><a href="#"><img
+                  src="@/assets/images/app-store.png" alt="app" /></a>
             </div>
           </div>
         </div>
@@ -694,9 +761,9 @@
               <a target="_blank" href="https://w3coders.net">W3 Coders</a>
             </p>
             <div class="footer-card">
-              <a href="#"><img src="./assets/images/payment/jpg/01.jpg" alt="payment" /></a><a href="#"><img
-                  src="./assets/images/payment/jpg/02.jpg" alt="payment" /></a><a href="#"><img src="./assets/images/payment/jpg/03.jpg"
-                  alt="payment" /></a><a href="#"><img src="./assets/images/payment/jpg/04.jpg" alt="payment" /></a>
+              <a href="#"><img src="@/assets/images/payment/jpg/01.jpg" alt="payment" /></a><a href="#"><img
+                  src="@/assets/images/payment/jpg/02.jpg" alt="payment" /></a><a href="#"><img src="@/assets/images/payment/jpg/03.jpg"
+                  alt="payment" /></a><a href="#"><img src="@/assets/images/payment/jpg/04.jpg" alt="payment" /></a>
             </div>
           </div>
         </div>
