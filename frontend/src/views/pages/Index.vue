@@ -229,9 +229,9 @@ const newSlide = ref([Navigation]);
               </div>
               <button class="product-wish wish">
                 <i class="fas fa-heart"></i></button
-              ><a class="product-image" href="product-video.html"
+              ><roter-link class="product-image" :to="{name: 'product.details'}"
                 ><img src="@/assets/images/product/01.jpg" alt="product"
-              /></a>
+              /></roter-link>
             </div>
             <div class="product-content">
               <h6 class="product-name">
