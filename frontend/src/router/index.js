@@ -12,7 +12,7 @@ const routes = [
     path: "/auth/login",
     name: "user.login",
     component: UserLogin,
-    meta: { title: "Login", guest: true },
+    meta: { title: "Login" },
   },
    {
     path: "/auth/register",
